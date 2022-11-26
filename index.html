@@ -138,10 +138,10 @@
 				<h2 class="sub-heading">Design tips, tricks, and freebies. Delivered weekly.</h2>
 				<p class="sub-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed d</p>
 			</div>
-			<div class="sub-form" action="" method="GET">
-				<div class="sub-input">Email Address...</div>
-				<a class="sub-button">Subscribe</a>
-			</div>
+			<form class="sub-form" action="" method="GET">
+				<input class="sub-input" type="email" name="email" placeholder="Email Address..." required>
+				<button class="sub-button" type="submit">Subscribe</button>
+			</form>
 		</section>
 		<div class="feedback-contacts">
 			<div class="feedback-left-box"></div>	
@@ -152,12 +152,12 @@
 					<hr class="hr-feedback">
 				</section>
 				<section class="feedback-body">
-					<div class="feedback-form">
-						<div class="feedback-input feedback-name">Name</div>
-						<div class="feedback-input feedback-mail">Your Mail</div>
-						<div class="feedback-input feedback-message">Type your message</div>
-						<a class="feedback-button">Send message</a>
-					</div>
+					<form class="feedback-form" action="" method="GET">
+						<input class="feedback-input feedback-name" type="text" name="name" placeholder="Name" required>
+						<input class="feedback-input feedback-mail" type="email" name="email" placeholder="Your Mail" required>
+						<textarea class="feedback-input feedback-message" name="message" cols="30" rows="5" placeholder="Type your message" required>Type your message</textarea>
+						<button class="feedback-button">Send message</button>
+					</form>
 				</section>
 			</section>
 			<section class="contacts">
