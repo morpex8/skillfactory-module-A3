@@ -156,13 +156,14 @@ p {
     background-color: #ff3f40;
     width: 227px;
     padding: 22px 0;
-    border-radius: 5px;
     text-align: center;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 8px;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: 700;
+	outline: 0;
+	border: 2px solid #ff3f40;
 }
 
 .knopka:hover {
